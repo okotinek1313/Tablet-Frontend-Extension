@@ -1,0 +1,66 @@
+#tablet-back-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    background-color: #4a6bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 9999;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  #tablet-back-button:hover {
+    background-color: #3a5bef;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  }
+
+  #tablet-back-button:active {
+    transform: translateY(0);
+  }
+
+  /* Optional: Site-specific styles */
+  #tablet-back-button.site-netflix {
+    background-color: #e50914;
+  }
+  #tablet-back-button.site-netflix:hover {
+    background-color: #c40812;
+  }
+
+  #tablet-back-button.site-youtube {
+    background-color: #ff0000;
+  }
+  #tablet-back-button.site-youtube:hover {
+    background-color: #e60000;
+  }
+
+  #tablet-back-button.site-disney {
+    background-color: #113ccf;
+  }
+  #tablet-back-button.site-disney:hover {
+    background-color: #0d2fa8;
+  }
+
+  #tablet-back-button.site-prime {
+    background-color: #00a8e1;
+  }
+  #tablet-back-button.site-prime:hover {
+    background-color: #0094c8;
+  }
+
+  #tablet-back-button.site-plex {
+    background-color: #e5a00d;
+    color: #1a1a1a;
+  }
+  #tablet-back-button.site-plex:hover {
+    background-color: #d1920b;
+  }
