@@ -21,7 +21,7 @@ A Chrome extension that adds a back button to streaming sites (Netflix, YouTube,
 ### Load Unpacked Extension
 1. Download this repository as a ZIP file
 2. Unzip the files to a folder
-3. Open Chrome and go to the [Chrome Extension Store](chrome://extensions)
+3. Open Chrome and go to chrome://extensions in your browser
 4. Enable **Developer mode** (toggle in top-right)
 5. Click **Load unpacked** and select the unzipped folder
 
